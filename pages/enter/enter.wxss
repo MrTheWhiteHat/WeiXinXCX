@@ -1,0 +1,70 @@
+/*enter.wxss*/
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 36px;
+  right: 0px;
+  left: -5px;
+  margin: auto;
+}
+
+.app-avatar {
+  width: 166rpx;
+  height: 166rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 3px #aaa inset;
+}
+
+.app-name {
+  height: 20px;
+  color: #aaa;
+}
+
+.usermotto {
+  display: table;
+  width: 80%;
+  height: 120px;
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 100px;
+  padding-top: 5px;
+  color: #ff5e00;
+  background-color:rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
+  box-shadow: 6px 6px 6px #aaa;
+
+}
+
+.user-motto {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.enter {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 66px;
+  margin: auto;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000;
+  line-height: 50px;
+  box-shadow: 0px 0px 8px 1px #000;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 8px;
+  margin: auto;
+  font-size: 10px;
+  color: #aaa;
+}

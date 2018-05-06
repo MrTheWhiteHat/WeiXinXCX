@@ -1,0 +1,34 @@
+<!--main.wxml-->
+<view class="container">
+  <view class="userinfo" bindtap="toUserCenter" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+  <view class="evaluation" bindtap="toSettings" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="icon" src="../images/comment.png" background-size="cover"></image>
+    <text class="words">我的评价</text>
+  </view>
+
+  <view class="settings" bindtap="toSettings" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="icon" src="../images/settings.png" background-size="cover"></image>
+    <text class="words">我的设置</text>
+  </view>
+
+  <view class="test1" bindtap="getSystemInfo" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="icon" src="../images/settings.png" background-size="cover"></image>
+    <text class="words">食堂反馈</text>
+  </view>
+
+  <view class="test2" bindtap="wxRequest" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="icon" src="../images/settings.png" background-size="cover"></image>
+    <text class="words">我的回复</text>
+  </view>
+
+  <view class="test3" bindtap="getRunData" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">
+    <image class="icon" src="../images/settings.png" background-size="cover"></image>
+    <text class="words">我的运动</text>
+  </view>
+  
+  
+</view>

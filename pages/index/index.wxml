@@ -1,0 +1,125 @@
+<!--index.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" circular="true"
+duration="666" interval="3000" indicator-color="rgba(255, 255, 255, 0.5)" >
+  <view wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </view>
+</swiper>
+<view class="rankingList no1">
+  <view class="flex top" style="font-size: 1.5rem;">
+    <image style="position: relative; margin: 12px; width: 32px; height: 32px;" src="../images/sort.png"></image>
+    <text>最受喜爱食堂排行榜</text>
+  </view>
+  <view class="flex no no1">
+    <image class="myImage" src="../images/no1.png"></image>
+    <text class="name">东二食堂</text>
+    <text class="likeData">1234人</text>
+    <image class="like" src="../images/like1.png"></image> 
+  </view>
+  <view class="flex no no2">
+    <image class="myImage" src="../images/no2.png"></image>
+    <text class="name">桂香园食堂</text>
+    <text class="likeData">998人</text>
+    <image class="like" src="../images/like2.png"></image>
+  </view>
+  <view class="flex no no3">
+    <image class="myImage" src="../images/no3.png"></image>
+    <text class="name">东一食堂</text>
+    <text class="likeData">888人</text>
+    <image class="like" src="../images/like3.png"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no4.png"></image>
+    <text class="name">学子食堂</text>
+    <text class="likeData">666人</text>
+    <image class="like" src="../images/like4.png"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no5.png"></image>
+    <text class="name">博雅园食堂</text>
+    <text class="likeData">555人</text>
+    <image class="like" src="../images/like4.png"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no6.png"></image>
+    <text class="name">沁园春食堂</text>
+    <text class="likeData">450人</text>
+    <image class="like" src="../images/like4.png"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no7.png"></image>
+    <text class="name">北区食堂</text>
+    <text class="likeData">366人</text>
+    <image class="like" src="../images/like4.png"></image>
+  </view>
+</view>
+
+<view class="rankingList no2">
+  <view class="flex top" style="font-size: 1.5rem;">
+    <image style="position: relative; margin: 12px; width: 32px; height: 32px;" src="../images/sort.png"></image>
+    <text>华师十大美味食品</text>
+  </view>
+  <view class="flex no no1">
+    <image class="myImage" src="../images/no1.png"></image>
+    <text class="name">东二食堂</text>
+    <text class="likeData">1234人</text>
+    <image class="like" src="../images/like1.png"></image> 
+  </view>
+  <view class="flex no no2">
+    <image class="myImage" src="../images/no2.png"></image>
+    <text class="name">桂香园食堂</text>
+    <text class="likeData">998人</text>
+    <image class="like" src="../images/like2.png"></image>
+  </view>
+  <view class="flex no no3">
+    <image class="myImage" src="../images/no3.png"></image>
+    <text class="name">东一食堂</text>
+    <text class="likeData">888人</text>
+    <image class="like" src="../images/like3.png"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no4.png"></image>
+    <text class="name">学子食堂</text>
+    <text class="likeData">666人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no5.png"></image>
+    <text class="name">博雅园食堂</text>
+    <text class="likeData">555人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no6.png"></image>
+    <text class="name">沁园春食堂</text>
+    <text class="likeData">450人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no7.png"></image>
+    <text class="name">北区食堂</text>
+    <text class="likeData">366人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no8.png"></image>
+    <text class="name">北区食堂</text>
+    <text class="likeData">366人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no9.png"></image>
+    <text class="name">北区食堂</text>
+    <text class="likeData">366人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+  <view class="flex no no0">
+    <image class="myImage" src="../images/no10.png"></image>
+    <text class="name">北区食堂</text>
+    <text class="likeData">366人</text>
+    <image class="like" src="{{likeImgUrl}}" bindtap="isLike"></image>
+  </view>
+</view>
+

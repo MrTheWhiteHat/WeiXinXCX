@@ -1,0 +1,12 @@
+<!--main.wxml-->
+<view class="container">
+  <view class="app-info">
+    <image class="app-avatar" src="../images/icon.png" background-size="cover"></image>
+    <text class="app-name">校园食堂窗口评价</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <button class="enter" bindtap="toIndex" type="primary" hover-class="button-hover" hover-start-time="1" hover-stay-time="60">进 入</button>
+  <text class="copyright">Copyright © 2017-2020 H4ck3r. All Rights Reserved.</text>
+</view>

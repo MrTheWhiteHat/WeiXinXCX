@@ -1,0 +1,55 @@
+<!--windows.wxml-->
+<view class="container">
+  <view class="topBar">
+    
+    <view class="scan">
+      <image class="scan-image" src="../images/scan.png" background-size="cover" bindtap="scan"></image>
+      <text class="scan-words">扫一扫</text>
+    </view>
+    
+    <view class="searchBar">
+      
+      <image class="searchBar-image" src="../images/Search.png" background-size="cover"></image>
+      
+      <input placeholder="搜索" maxlength="66" confirm-type="search" bindconfirm="starSearch"></input>
+    
+    </view>
+
+    <view class="">
+    </view>
+
+  </view>
+
+  <view class="canteen-classify">    
+    <view class="canteenTop">
+      <text class="words">华师食堂</text>
+    </view>
+    <view class="canteen">
+      <text class="words">东一</text>
+    </view>
+    <view class="canteen">
+      <text class="words">东二</text>
+    </view>
+    <view class="canteen">
+      <text class="words">学子</text>
+    </view>
+    <view class="canteen">
+      <text class="words">桂香园</text>
+    </view>
+    <view class="canteen">
+      <text class="words">博雅园</text>
+    </view>
+    <view class="canteen">
+      <text class="words">沁园春</text>
+    </view>
+    <view class="canteen canteenBottom">
+      <text class="words">北区</text>
+    </view>
+  </view>
+
+  <scroll-view class="windows-classify">
+  </scroll-view>
+
+  <view class="res">{{result}}</view>
+
+</view>
